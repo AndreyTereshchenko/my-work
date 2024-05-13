@@ -1,0 +1,10 @@
+name = input("веди свое имя ")
+password = input("вуди свой пороль ")
+
+name2 = input("повтори свое имя ")
+assert name == name2, "неверное имя"
+
+password2 = input("повторите свой пароль ")
+assert password == password2, "неверный пароль"
+
+print("вы прошли проверку")
