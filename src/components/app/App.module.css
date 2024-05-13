@@ -1,0 +1,65 @@
+.container {
+  width: 1400px;
+  max-width: 100%;
+  margin: 120px auto 110px auto; 
+  padding: 0 180px;
+  box-sizing: border-box;
+  overflow-y: auto; 
+}
+.input_title {
+  width: 250px;
+  padding: 10px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px 0 10px 20px;
+  text-transform: uppercase;
+}
+
+.form_button {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+  background: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.form_button:hover {
+  box-shadow: 0 0 5px 0 brown;
+  background: none;
+  cursor: pointer;
+}
+
+.form_button:active {
+  box-shadow: 0 0 5px 0 brown, inset 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  background: none;
+}
+
+form input,
+form select {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px;
+  box-shadow: 0 0 2px 0 brown;
+  background-color: rgba(236, 245, 242, 0.685);
+  border: none;
+}
+
+form select{
+  width: 270px;
+}
+
+.container h2 {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  justify-content: center
+}

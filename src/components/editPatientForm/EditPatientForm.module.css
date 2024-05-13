@@ -1,0 +1,41 @@
+.form_button {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    background: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.form_button:hover {
+    box-shadow: 0 0 5px 0 brown;
+    background: none;
+    cursor: pointer;
+}
+
+.form_button:active {
+    box-shadow: 0 0 5px 0 brown, inset 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    background: none;
+}
+
+.input_time {
+    box-shadow: 0 0 2px 0 brown;
+    background-color: rgba(236, 245, 242, 0.685);
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.input_time p {
+    margin: 0px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}

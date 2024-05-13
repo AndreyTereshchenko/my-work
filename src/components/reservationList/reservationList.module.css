@@ -1,0 +1,72 @@
+.form_button {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    background: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.form_button:hover {
+    box-shadow: 0 0 5px 0 brown;
+    background: none;
+    cursor: pointer;
+}
+
+.form_button:active {
+    box-shadow: 0 0 5px 0 brown, inset 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    background: none;
+}
+
+.groupUl {
+    list-style: none;
+}
+
+.input_title {
+    width: 50px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px 0 0px 0px;
+    text-transform: uppercase;
+}
+
+.input_text {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.input_time {
+    box-shadow: 0 0 2px 0 brown;
+    background-color: rgba(0, 128, 0, 0.313);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.shadow {
+    box-shadow: 5px 3px 5px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.lateAppointment {
+    color: brown !important;
+}
+
+.lateRed {
+    background-color: rgba(165, 42, 42, 0.461);
+}

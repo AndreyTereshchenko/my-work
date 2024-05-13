@@ -1,0 +1,21 @@
+.container h2 {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 1400px;
+  max-width: 100%;
+  margin: 100px auto 100px auto;
+  margin-top: 20px;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+.occupied {
+  background-color: red !important;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.occupied {
+  background-color: red !important;
+}

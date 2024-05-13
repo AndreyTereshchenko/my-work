@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.headerLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bolder;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.headerLink a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(25, 150, 215, 1);
+}
+
+.headerLink a:hover {
+  color: brown;
+}
+
+.headerLink a:active {
+  text-shadow: 0 0 2px black;
+}
+
+header {
+  background-color: rgb(236, 245, 242);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+ 
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: bolder;
+  font-size: 24px;
+  color: rgba(25, 150, 215, 1);
+  margin-right: 100px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.activeLink {
+  color: rgb(3, 79, 120) !important;
+  text-decoration: underline !important;
+}
